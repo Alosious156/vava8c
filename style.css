@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background: linear-gradient(rgb(255, 0, 149),#009688,#009688,#009611),url(images/Penguins.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#banner1{
+
+    background: linear-gradient(#009611,#009688,#009688,rgb(255, 0, 149)),url(images/Penguins.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* (#009688,rgba(0,0,0,0.5)) */
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: #FF0023;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    transition: background-color 2s;
+}
+
+.btn:hover {
+    background-color: #0400ff;
+
+}
